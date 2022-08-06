@@ -1,0 +1,18 @@
+<template>
+  <div style="text-align: center;"> รายการสินค้าใน Database ของท่าน </div>
+  <div>
+    <ProductList />
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import ProductList from "@/components/ProductList.vue";
+
+export default {
+  name: 'Index',
+  components: {
+    ProductList
+  }
+}
+</script>
